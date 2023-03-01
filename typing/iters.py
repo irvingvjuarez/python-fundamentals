@@ -1,6 +1,6 @@
 from typing import Dict, List
 
-positives: List[int] = [0,1,0,0,1,1]
+positives: List[int] = ["h", "e", "l", "l", "o"]
 
 users: Dict[str, int] = {
     "argentina": 21,
@@ -26,6 +26,3 @@ countries: List[Dict[str, str]] = [
 print(positives)
 print(users)
 print(countries)
-
-positives = ["Hi There"]
-print(positives)
