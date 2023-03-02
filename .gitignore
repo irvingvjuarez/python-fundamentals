@@ -72,3 +72,6 @@ __pypackages__/
 # End of https://www.toptal.com/developers/gitignore/api/pythonvanilla
 # Virtual Environments
 env/
+
+# mypy files and directories
+.mypy_cache/
