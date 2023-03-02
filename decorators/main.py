@@ -8,9 +8,9 @@ def decorator(fn: Callable[[], str]):
 
     return wrapper
 
+@decorator
 def greet():
     print("I am the greeting function")
 
 if __name__ == "__main__":
-    greeting = decorator(greet)
-    greeting()
+    greet()
